@@ -1,15 +1,7 @@
-variable "vpc_ip_address" {
-    default = "10.8.8.6/32"
-}
+variable "vpc_ip_address" {}
 
-variable "app_port" {
-    default = 8080
-}
+variable "app_port" {}
 
-variable "ssh_port" {
-    default = 22
-}
+variable "ssh_port" {}
 
-variable "ftp_port" {
-    default = 21
-}
+variable "ftp_port" {}
