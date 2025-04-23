@@ -13,3 +13,9 @@ resource "aws_eip" "elastic_ip" {
         Name = "Terraform Elastic IP"
     }
 }
+
+
+resource "aws_security_group" "terraform-SG" {
+    name = "terraform-SG"
+    description = "Adding security for learning purpose"
+}
